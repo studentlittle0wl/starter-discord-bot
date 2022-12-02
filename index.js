@@ -8,6 +8,8 @@ const GUILD_ID = process.env.GUILD_ID
 
 // app.use(bodyParser.json());
 
+const axios = require('axios')
+
 const discord_api = axios.create({
   baseURL: 'https://discord.com/api/',
   timeout: 3000,
