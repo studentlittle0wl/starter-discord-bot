@@ -6,11 +6,6 @@ const TOKEN = process.env.TOKEN
 const PUBLIC_KEY = process.env.PUBLIC_KEY || 'not set'
 const GUILD_ID = process.env.GUILD_ID 
 
-
-const axios = require('axios')
-const express = require('express');
-
-const app = express();
 // app.use(bodyParser.json());
 
 const discord_api = axios.create({
