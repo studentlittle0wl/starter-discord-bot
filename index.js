@@ -41,5 +41,3 @@ fs.readdir("./events/", (err, files) => {
     client.on(event.name, event.eventHandler.bind(null, client));
   });
 });
-
-client.login(process.env.token);
