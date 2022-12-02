@@ -1,6 +1,6 @@
 
 // const { clientId, guildId, token, publicKey } = require('./config.json');
-import axios from 'axios';
+//import axios from 'axios';
 require('dotenv').config()
 const APPLICATION_ID = process.env.APPLICATION_ID 
 const TOKEN = process.env.TOKEN 
@@ -9,7 +9,7 @@ const GUILD_ID = process.env.GUILD_ID
 
 // app.use(bodyParser.json());
 
-//const axios = require('axios');
+const axios = require('axios');
 
 const discord_api = axios.create({
   baseURL: 'https://discord.com/api/',
