@@ -1,5 +1,6 @@
 
 // const { clientId, guildId, token, publicKey } = require('./config.json');
+import axios from 'axios';
 require('dotenv').config()
 const APPLICATION_ID = process.env.APPLICATION_ID 
 const TOKEN = process.env.TOKEN 
